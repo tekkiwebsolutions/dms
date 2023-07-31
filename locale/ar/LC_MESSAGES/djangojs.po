@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-28 16:19+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:21281
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:25
+msgid "Error while starting OCR process."
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22327
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "About"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22349
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22365
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Access"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22353
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Create"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22355
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Edit"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22357
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23033
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Delete"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22359
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "View"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22361
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22945
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "User or Group"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22363
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22627
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22761
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22967
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Type"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22391
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23035
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Apply"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22393
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22827
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23037
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23065
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23161
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Cancel"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22511
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Home"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22603
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22693
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "This folder is empty"
+msgstr "testing"
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22631
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Title "
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22651
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Created At"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22721
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "Grid"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22727
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "List"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22733
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "Title"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22739
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22753
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22767
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "Asc"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22745
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22759
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22773
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "Desc"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22747
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:52
+msgid "Date"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22815
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Multi-Tags"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22817
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "You selected multiple documents/folders."
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22819
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid ""
+"If you add/remove tags here, they will be added/removed on all selected "
+"items."
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22821
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Multi-tags Editor"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22823
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23157
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Use comma(,) or Enter as tags separator"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22825
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23159
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Submit"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22865
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Page OCRed Text"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22943
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Permission Editor"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22951
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Nothing selected"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22977
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Allow"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22983
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Deny"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:22993
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Change Permissions"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23003
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Take Ownership"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23013
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Read"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23023
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Write"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23057
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23063
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Rename"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23059
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "New Name"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23153
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23565
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Tags"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23155
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Tags Editor"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23329
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23419
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Metadata"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23331
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23421
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Add"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23333
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23423
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Save"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23355
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23445
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "label name"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23461
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "value"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23523
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23587
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Download"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23551
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Owner"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23555
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Created"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:23559
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:60
+msgid "Modified"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:26492
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+msgid "Select one page (from the thumbnails) to view its OCRed text"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:26494
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+msgid "Select <strong>exactly one</strong> page to view its OCRed text"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:28122
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+#, javascript-format
+msgid "%s item selected"
+msgid_plural "%s items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:28256
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+msgid "Metadata successfully saved"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:28259
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+msgid "There was an error while saving metadata"
+msgstr ""
+
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.debug.js:28488
+#: .\papermerge\contrib\admin\static\admin\js\papermerge.js:72
+msgid "Loading..."
+msgstr ""

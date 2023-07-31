@@ -1,0 +1,4 @@
+[console_scripts]
+pdf-stapler=staplelib:main
+stapler=staplelib:main
+

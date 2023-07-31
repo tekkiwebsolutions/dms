@@ -1,0 +1,65 @@
+{
+  "st_mtime": 1611762075.0,
+  "path": "/usr/bin/python3.8",
+  "content": {
+    "platform": "linux",
+    "implementation": "CPython",
+    "version_info": {
+      "major": 3,
+      "minor": 8,
+      "micro": 5,
+      "releaselevel": "final",
+      "serial": 0
+    },
+    "architecture": 64,
+    "version": "3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]",
+    "os": "posix",
+    "prefix": "/usr",
+    "base_prefix": "/usr",
+    "real_prefix": null,
+    "base_exec_prefix": "/usr",
+    "exec_prefix": "/usr",
+    "executable": "/usr/bin/python3.8",
+    "original_executable": "/usr/bin/python3.8",
+    "system_executable": "/usr/bin/python3.8",
+    "has_venv": true,
+    "path": [
+      "/usr/lib/python3/dist-packages/virtualenv/discovery",
+      "/usr/lib/python38.zip",
+      "/usr/lib/python3.8",
+      "/usr/lib/python3.8/lib-dynload",
+      "/usr/local/lib/python3.8/dist-packages",
+      "/usr/lib/python3/dist-packages"
+    ],
+    "file_system_encoding": "utf-8",
+    "stdout_encoding": "utf-8",
+    "sysconfig_paths": {
+      "stdlib": "{installed_base}/lib/python{py_version_short}",
+      "platstdlib": "{platbase}/lib/python{py_version_short}",
+      "purelib": "{base}/lib/python{py_version_short}/site-packages",
+      "platlib": "{platbase}/lib/python{py_version_short}/site-packages",
+      "include": "{installed_base}/include/python{py_version_short}{abiflags}",
+      "scripts": "{base}/bin",
+      "data": "{base}"
+    },
+    "sysconfig_vars": {
+      "PYTHONFRAMEWORK": "",
+      "py_version_short": "3.8",
+      "installed_base": "/usr",
+      "platbase": "/usr",
+      "abiflags": "",
+      "base": "/usr"
+    },
+    "distutils_install": {
+      "purelib": "lib/python3.8/site-packages",
+      "platlib": "lib/python3.8/site-packages",
+      "headers": "include/python3.8/UNKNOWN",
+      "scripts": "bin",
+      "data": ""
+    },
+    "system_stdlib": "/usr/lib/python3.8",
+    "system_stdlib_platform": "/usr/lib/python3.8",
+    "max_size": 9223372036854775807,
+    "_creators": null
+  }
+}

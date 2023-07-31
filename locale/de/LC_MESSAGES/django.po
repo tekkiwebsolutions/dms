@@ -1,0 +1,1191 @@
+# -*- coding: utf-8 -*-
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-28 16:07+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ciur Eugen\n"
+"Language-Team: Ciur Eugen\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\config\settings\base.py:344
+msgid "Deutsch"
+msgstr ""
+
+#: .\config\settings\base.py:345
+msgid "Français"
+msgstr ""
+
+#: .\config\settings\base.py:346
+msgid "Arabic"
+msgstr ""
+
+#: .\papermerge\contrib\admin\forms.py:449
+msgid "Number of hours this token will be valid (4464 hours ~ 6 months)"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:19
+msgid "Debug"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:20
+#: .\papermerge\contrib\admin\templates\admin\document.html:28
+msgid "Info"
+msgstr "Info"
+
+#: .\papermerge\contrib\admin\models.py:21
+msgid "Warning"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:22
+msgid "Error"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:23
+msgid "Critical"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:33
+msgid "action time"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:46
+msgid "log entry"
+msgstr ""
+
+#: .\papermerge\contrib\admin\models.py:47
+msgid "log entries"
+msgstr ""
+
+#: .\papermerge\contrib\admin\signals.py:28
+#, python-format
+msgid "Node/Folder %(folder_title)s created. Folder id=%(folder_id)s."
+msgstr ""
+
+#: .\papermerge\contrib\admin\signals.py:48
+#, python-format
+msgid "Node(s) %(node_titles)s were deleted. Node ids=%(node_ids)s"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\base.html:7
+msgid "Log in"
+msgstr "Anmelden"
+
+#: .\papermerge\contrib\admin\templates\account\login.html:15
+msgid "Sign in to start your session"
+msgstr "Melden Sie sich an, um Ihre Sitzung zu starten"
+
+#: .\papermerge\contrib\admin\templates\account\login.html:21
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: .\papermerge\contrib\admin\templates\account\login.html:27
+msgid "Remember Me"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\login.html:34
+msgid "I forgot my password"
+msgstr "Ich habe mein Passwort vergessen"
+
+#: .\papermerge\contrib\admin\templates\account\logout.html:5
+#: .\papermerge\contrib\admin\templates\account\logout.html:8
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: .\papermerge\contrib\admin\templates\account\logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr "Sind Sie sicher, dass Sie sich abmelden möchten?"
+
+#: .\papermerge\contrib\admin\templates\account\logout.html:18
+msgid "Yes, sign out"
+msgstr "Ja, abmelden"
+
+#: .\papermerge\contrib\admin\templates\account\logout.html:19
+msgid "Nope, take me back!"
+msgstr "Nein, nimm mich zurück!"
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:5
+#: .\papermerge\contrib\admin\templates\account\password_change.html:9
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:4
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:11
+#: .\papermerge\contrib\admin\templates\account\reset_password_from_key_done.html:4
+#: .\papermerge\contrib\admin\templates\account\reset_password_from_key_done.html:7
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:5
+#: .\papermerge\contrib\admin\templates\admin\base.html:103
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:5
+#: .\papermerge\contrib\admin\templates\core\user_form.html:41
+#: .\papermerge\contrib\admin\views\users.py:99
+msgid "Change Password"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:26
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:68
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:62
+msgid "Your password can’t be too similar to your other personal information."
+msgstr ""
+"Das Passwort darf nicht zu ähnlich zu anderen persönlichen Informationen "
+"sein."
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:30
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:72
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:66
+msgid "Your password must contain at least 8 characters."
+msgstr "Ihr Passwort muss mindestens 8 Zeichen enthalten."
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:34
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:76
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:70
+msgid "Your password can’t be a commonly used password."
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:38
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:80
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:74
+msgid "Your password can’t be entirely numeric."
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:53
+#: .\papermerge\contrib\admin\templates\admin\object_form.html:33
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:69
+#: .\papermerge\contrib\admin\templates\core\role_form.html:34
+#: .\papermerge\contrib\admin\templates\core\tag_form.html:37
+#: .\papermerge\contrib\admin\templates\core\user_form.html:34
+msgid "Submit"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\password_change.html:57
+#: .\papermerge\contrib\admin\templates\admin\object_form.html:37
+#: .\papermerge\contrib\admin\templates\admin\preferences_section.html:62
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:73
+#: .\papermerge\contrib\admin\templates\core\role_form.html:39
+#: .\papermerge\contrib\admin\templates\core\tag_form.html:41
+#: .\papermerge\contrib\admin\templates\core\user_form.html:46
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset.html:9
+msgid "You forgot your password? Here you can easily retrieve a new password."
+msgstr ""
+"Haben Sie Ihre Passwort vergessen? Hier können Sie ganz einfach ein neues "
+"Passwort abrugen."
+
+#: .\papermerge\contrib\admin\templates\account\password_reset.html:13
+msgid "Email address"
+msgstr "Email Adresse"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset.html:22
+msgid "Request new password"
+msgstr "Neues Passwort anfordern"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset.html:29
+msgid "Login"
+msgstr "Anmelden"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:11
+#, fuzzy
+#| msgid "API Tokens"
+msgid "Bad Token"
+msgstr "API Tokens"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:14
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:20
+#, fuzzy
+#| msgid "Password"
+msgid "change password"
+msgstr "Passwort"
+
+#: .\papermerge\contrib\admin\templates\account\password_reset_from_key.html:23
+#: .\papermerge\contrib\admin\templates\account\reset_password_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\signup_disabled.html:12
+msgid "For this setup signup is disabled"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\account\signup_disabled.html:14
+#, fuzzy
+#| msgid "Last Login"
+msgid "Back to login"
+msgstr "Letzte Anmeldung"
+
+#: .\papermerge\contrib\admin\templates\admin\_aside.html:19
+#: .\papermerge\contrib\admin\templates\admin\index.html:5
+#: .\papermerge\contrib\admin\templates\admin\index.html:128
+#: .\papermerge\core\models\document.py:552
+#: .\papermerge\core\models\node.py:394 .\papermerge\core\models\node.py:395
+msgid "Documents"
+msgstr "Dokumente"
+
+#: .\papermerge\contrib\admin\templates\admin\_aside.html:36
+msgid "Inbox"
+msgstr "Posteingang"
+
+#: .\papermerge\contrib\admin\templates\admin\_footer.html:8
+msgid "All rights reserved"
+msgstr "Alle Rechte vorbehalten"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:10
+msgid "New User"
+msgstr "Neuer Benutzer"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:16
+msgid ""
+"First, enter a username and password. Then, you’ll be able to edit more user "
+"options."
+msgstr ""
+"Zuerst geben Sie einen Benutzernamen und ein Passwort ein. Anschließend "
+"können Sie weitere Benutzeroptionen bearbeiten."
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:44
+#: .\papermerge\contrib\admin\templates\core\user_list.html:32
+msgid "Username"
+msgstr "Benutzername"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:45
+#, fuzzy
+#| msgid "Username"
+msgid "username"
+msgstr "Benutzername"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:50
+msgid "Password"
+msgstr "Passwort"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:51
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Passwort"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:55
+msgid "Password confirmation"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:56
+#, fuzzy
+#| msgid "password (again)"
+msgid "password (confirmation)"
+msgstr "Passwort (nochmal)"
+
+#: .\papermerge\contrib\admin\templates\admin\add_user.html:60
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:48
+#, fuzzy
+#| msgid "Continue"
+msgid "Content"
+msgstr "Fortsetzen"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:49
+#: .\papermerge\contrib\admin\templates\admin\base.html:80
+msgid "Search"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:52
+#, fuzzy
+#| msgid "New Folder"
+msgid "In Folder"
+msgstr "Ordner erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:56
+msgid "With"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:58
+#: .\papermerge\contrib\admin\templates\admin\index.html:122
+#: .\papermerge\core\models\automate.py:106
+#, fuzzy
+#| msgid "Allow"
+msgid "All"
+msgstr "Zulassen"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:59
+#: .\papermerge\core\models\automate.py:105
+msgid "Any"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:61
+#: .\papermerge\contrib\admin\templates\admin\document.html:50
+#: .\papermerge\contrib\admin\templates\admin\document.html:230
+#: .\papermerge\contrib\admin\templates\admin\index.html:141
+#: .\papermerge\contrib\admin\templates\admin\search.html:23
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:46
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:38
+#: .\papermerge\contrib\admin\templates\core\tag_form.html:9
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:5
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:9
+#: .\papermerge\contrib\admin\views\tags.py:26
+#: .\papermerge\core\models\tags.py:91
+msgid "Tags"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:73
+msgid "Advanced Search"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:110
+msgid "API Tokens"
+msgstr "API Tokens"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:116
+#: .\papermerge\contrib\admin\templates\admin\preferences.html:5
+#: .\papermerge\contrib\admin\templates\admin\preferences.html:16
+#: .\papermerge\contrib\admin\templates\admin\preferences_section.html:6
+#: .\papermerge\contrib\admin\templates\admin\preferences_section.html:11
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:129
+#, fuzzy
+#| msgid "Documents"
+msgid "Documentation"
+msgstr "Dokumente"
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:134
+msgid "About"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\base.html:140
+msgid "Log out"
+msgstr "Abmelden"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:32
+#: .\papermerge\contrib\admin\templates\admin\index.html:166
+msgid "OCR Language"
+msgstr "Sprache"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:36
+msgid "Owner"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:40
+#: .\papermerge\contrib\admin\templates\core\role_list.html:35
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:44
+#: .\papermerge\contrib\admin\templates\core\role_list.html:36
+msgid "Modified"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:64
+msgid "Version(s)"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:68
+#: .\papermerge\contrib\admin\templates\admin\document.html:86
+msgid "Original"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:68
+#: .\papermerge\contrib\admin\templates\admin\document.html:88
+msgid "Latest"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:79
+#: .\papermerge\contrib\admin\templates\admin\document.html:98
+#: .\papermerge\contrib\admin\templates\admin\document.html:205
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:17
+#: .\papermerge\contrib\admin\templates\admin\index.html:92
+msgid "Download"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:209
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:40
+#: .\papermerge\contrib\admin\templates\admin\index.html:144
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:213
+msgid "Delete Page"
+msgstr "Seite löschen"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:218
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:21
+#: .\papermerge\contrib\admin\templates\admin\index.html:95
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:222
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:27
+#: .\papermerge\contrib\admin\templates\admin\index.html:101
+msgid "Paste"
+msgstr "Einfügen"
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:227
+msgid "View OCRed text"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document.html:235
+msgid "Apply Reorder Changes"
+msgstr "Änderungen anwenden"
+
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:13
+msgid "Actions"
+msgstr "Aktion"
+
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:31
+#: .\papermerge\contrib\admin\templates\admin\index.html:105
+msgid "Documents & Folders"
+msgstr "Dokumente & Ordner"
+
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:34
+#: .\papermerge\contrib\admin\templates\admin\index.html:108
+msgid "Pages"
+msgstr "Seiten"
+
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:44
+#: .\papermerge\contrib\admin\templates\admin\index.html:156
+msgid "Delete"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\document_404.html:68
+msgid "Document not found"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:33
+msgid "Upload"
+msgstr "Hochladen"
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:50
+#: .\papermerge\contrib\admin\templates\admin\index.html:88
+msgid "New Folder"
+msgstr "Ordner erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:118
+#, fuzzy
+#| msgid "Actions"
+msgid "Selection"
+msgstr "Aktion"
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:125
+#: .\papermerge\core\models\folder.py:147
+#, fuzzy
+#| msgid "New Folder"
+msgid "Folders"
+msgstr "Ordner erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:131
+msgid "Deselect"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:134
+msgid "Invert Selection"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:147
+msgid "Run OCR"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\index.html:151
+msgid "Access"
+msgstr "Berechtigung"
+
+#: .\papermerge\contrib\admin\templates\admin\logentry_form.html:12
+msgid "Close"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\object_list.html:5
+#: .\papermerge\contrib\admin\views\logs.py:29
+msgid "Logs"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\object_list.html:22
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:20
+#: .\papermerge\contrib\admin\templates\core\role_list.html:19
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:19
+#: .\papermerge\contrib\admin\templates\core\user_list.html:19
+#: .\papermerge\contrib\admin\views\automates.py:79
+#: .\papermerge\contrib\admin\views\groups.py:49
+#: .\papermerge\contrib\admin\views\roles.py:62
+#: .\papermerge\contrib\admin\views\tags.py:41
+#: .\papermerge\contrib\admin\views\tokens.py:59
+#: .\papermerge\contrib\admin\views\users.py:67
+msgid "New"
+msgstr "Neu"
+
+#: .\papermerge\contrib\admin\templates\admin\object_list.html:75
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:81
+#: .\papermerge\contrib\admin\templates\core\role_list.html:76
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:80
+#: .\papermerge\contrib\admin\templates\core\user_list.html:85
+msgid "Apply"
+msgstr "Anwenden"
+
+#: .\papermerge\contrib\admin\templates\admin\preferences_section.html:58
+#: .\papermerge\contrib\admin\templates\admin\user.html:57
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:54
+msgid "Save"
+msgstr "Speichern"
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:5
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:16
+msgid "Home"
+msgstr "Hauptseite"
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:19
+msgid "Term"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:28
+msgid "OR"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:30
+msgid "AND"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\search.html:38
+#: .\papermerge\core\models\folder.py:146
+#, fuzzy
+#| msgid "New Folder"
+msgid "Folder"
+msgstr "Ordner erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\token.html:5
+#: .\papermerge\contrib\admin\templates\admin\token.html:10
+msgid "New Authentication Tokens"
+msgstr "Neue Authentication Tokens"
+
+#: .\papermerge\contrib\admin\templates\admin\token.html:43
+msgid "Create"
+msgstr "Erstellen"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:5
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:9
+msgid "Authentication Tokens"
+msgstr "Authentifizierungstoken"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:15
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:17
+msgid "New API Token"
+msgstr "Neues Token"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:24
+msgid "Go"
+msgstr "Los!"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:33
+#: .\papermerge\contrib\admin\views\tokens.py:36
+msgid "Digest"
+msgstr "Gigest"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:36
+#: .\papermerge\contrib\admin\views\tokens.py:37
+msgid "Created At"
+msgstr "Erstellungsdatum"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:37
+#: .\papermerge\contrib\admin\views\tokens.py:38
+msgid "Expires At"
+msgstr "Gültig bis"
+
+#: .\papermerge\contrib\admin\templates\admin\tokens.html:51
+msgid "No API Tokens defined so far"
+msgstr "Bisher sind keine API-Token definiert"
+
+#: .\papermerge\contrib\admin\templates\admin\user.html:14
+msgid ""
+"\n"
+"              Raw passwords are not stored, so there is no way to see this "
+"user’s password, but you can change the password (of the user your are "
+"editing right now) using\n"
+"            "
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\user.html:16
+msgid "this form"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:10
+msgid "Change Password for User"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\admin\user_change_password.html:12
+msgid ""
+"\n"
+"              Enter a new password for the user\n"
+"            "
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:5
+msgid "New Automate"
+msgstr "Neuer Automatisierung"
+
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:9
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:5
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:9
+#: .\papermerge\contrib\admin\views\automates.py:27
+msgid "Automates"
+msgstr "Automatisierung"
+
+#: .\papermerge\contrib\admin\templates\core\automate_form.html:50
+msgid "These tags will be assigned to matched document."
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:33
+#: .\papermerge\contrib\admin\views\groups.py:33
+#: .\papermerge\core\models\automate.py:112
+#, fuzzy
+#| msgid "New Name"
+msgid "Name"
+msgstr "Neuer Name"
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:36
+#: .\papermerge\core\models\automate.py:119
+msgid "Match"
+msgstr "Suchbegriff"
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:37
+#: .\papermerge\core\models\automate.py:144
+msgid "Destination Folder"
+msgstr "Zielordner"
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:59
+#, fuzzy
+#| msgid "No groups defined so far"
+msgid "No automates defined so far"
+msgstr "Bisher keine Gruppen definiert"
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:73
+#, fuzzy
+#| msgid "Delete selected automates"
+msgid "Run selected automates"
+msgstr "Ausgewählte Autom. löschen"
+
+#: .\papermerge\contrib\admin\templates\core\automate_list.html:74
+msgid "Delete selected automates"
+msgstr "Ausgewählte Autom. löschen"
+
+#: .\papermerge\contrib\admin\templates\core\role_form.html:9
+#: .\papermerge\contrib\admin\templates\core\role_list.html:5
+#: .\papermerge\contrib\admin\templates\core\role_list.html:9
+#: .\papermerge\contrib\admin\views\roles.py:46
+msgid "Roles"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\role_list.html:32
+#: .\papermerge\contrib\admin\templates\core\user_list.html:37
+msgid "Role"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\role_list.html:55
+#, fuzzy
+#| msgid "No groups defined so far"
+msgid "No roles defined so far"
+msgstr "Bisher keine Gruppen definiert"
+
+#: .\papermerge\contrib\admin\templates\core\role_list.html:69
+#, fuzzy
+#| msgid "Delete selected groups"
+msgid "Delete selected roles"
+msgstr "Ausgewählte Gruppen löschen"
+
+#: .\papermerge\contrib\admin\templates\core\tag_form.html:5
+#: .\papermerge\core\models\tags.py:90
+msgid "Tag"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:32
+#, fuzzy
+#| msgid "New Name"
+msgid "Tag Name"
+msgstr "Neuer Name"
+
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:35
+msgid "Pinned?"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:36
+msgid "Description"
+msgstr ""
+
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:59
+#, fuzzy
+#| msgid "No groups defined so far"
+msgid "No tag so far"
+msgstr "Bisher keine Gruppen definiert"
+
+#: .\papermerge\contrib\admin\templates\core\tag_list.html:73
+#, fuzzy
+#| msgid "Delete selected groups"
+msgid "Delete selected tags"
+msgstr "Ausgewählte Gruppen löschen"
+
+#: .\papermerge\contrib\admin\templates\core\user_form.html:9
+#: .\papermerge\contrib\admin\templates\core\user_list.html:5
+#: .\papermerge\contrib\admin\templates\core\user_list.html:9
+#: .\papermerge\contrib\admin\views\users.py:51
+msgid "Users"
+msgstr "Benutzer"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:35
+msgid "Email Address"
+msgstr "Email Adresse"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:36
+msgid "Superuser Status"
+msgstr "Superuser-Status"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:38
+msgid "Active Status"
+msgstr "Aktiv Status"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:39
+msgid "Last Login"
+msgstr "Letzte Anmeldung"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:64
+#, fuzzy
+#| msgid "No groups defined so far"
+msgid "No users defined so far"
+msgstr "Bisher keine Gruppen definiert"
+
+#: .\papermerge\contrib\admin\templates\core\user_list.html:78
+msgid "Delete selected users"
+msgstr "Ausgewählte Benutzer löschen"
+
+#: .\papermerge\contrib\admin\views\automates.py:95
+#: .\papermerge\contrib\admin\views\groups.py:57
+#: .\papermerge\contrib\admin\views\roles.py:75
+#: .\papermerge\contrib\admin\views\tokens.py:85
+#: .\papermerge\contrib\admin\views\users.py:80
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: .\papermerge\contrib\admin\views\groups.py:31
+msgid "Groups"
+msgstr "Gruppen"
+
+#: .\papermerge\contrib\admin\views\logs.py:32
+msgid "Time"
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\logs.py:33
+msgid "Message"
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\logs.py:34
+#, fuzzy
+#| msgid "Users"
+msgid "User"
+msgstr "Benutzer"
+
+#: .\papermerge\contrib\admin\views\logs.py:35
+msgid "Level"
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\logs.py:57
+#, fuzzy
+#| msgid "Log in"
+msgid "Log Entry"
+msgstr "Anmelden"
+
+#: .\papermerge\contrib\admin\views\mixins.py:47
+#, fuzzy, python-format
+#| msgid "Delete selected groups"
+msgid "Delete selected %(model_name_plu)s"
+msgstr "Ausgewählte Gruppen löschen"
+
+#: .\papermerge\contrib\admin\views\mixins.py:55
+#, python-format
+msgid "No %(model_name_plu)s so far"
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\mixins.py:80
+#, python-format
+msgid "%(count)s selected entries were deleted."
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\tags.py:36
+msgid "New Tag"
+msgstr ""
+
+#: .\papermerge\contrib\admin\views\tokens.py:32
+#, fuzzy
+#| msgid "API Tokens"
+msgid "Tokens"
+msgstr "API Tokens"
+
+#: .\papermerge\contrib\admin\views\users.py:116
+#, fuzzy, python-format
+#| msgid "Group %(name)s was successfully created."
+msgid "%(username)s password was successfully updated!"
+msgstr "Gruppe %(name)s wurde erstellt."
+
+#: .\papermerge\core\automate.py:76 .\papermerge\core\models\automate.py:51
+#, python-format
+msgid "%(count)s of %(total)s Automate(s) matched. "
+msgstr ""
+
+#: .\papermerge\core\automate.py:82 .\papermerge\core\models\automate.py:58
+#, python-format
+msgid "List of matched Automates: %(matched_automates)s"
+msgstr ""
+
+#: .\papermerge\core\models\__init__.py:90
+msgid "Determines what operations this user is authorized to perform."
+msgstr ""
+
+#: .\papermerge\core\models\access.py:52
+msgid "Allow"
+msgstr "Zulassen"
+
+#: .\papermerge\core\models\access.py:53
+msgid "Deny"
+msgstr "Verweigern"
+
+#: .\papermerge\core\models\access.py:63
+#, fuzzy
+#| msgid "Groups"
+msgid "group"
+msgstr "Gruppen"
+
+#: .\papermerge\core\models\access.py:70
+#, fuzzy
+#| msgid "Username"
+msgid "user"
+msgstr "Benutzername"
+
+#: .\papermerge\core\models\automate.py:107
+msgid "Literal"
+msgstr ""
+
+#: .\papermerge\core\models\automate.py:108
+msgid "Regular Expression"
+msgstr ""
+
+#: .\papermerge\core\models\automate.py:125
+msgid "Matching Algorithm"
+msgstr ""
+
+#: .\papermerge\core\models\automate.py:132
+msgid "Is case sensitive"
+msgstr ""
+
+#: .\papermerge\core\models\automate.py:152
+msgid "Extract Page"
+msgstr "Seite extrahieren"
+
+#: .\papermerge\core\models\document.py:267
+msgid "Notes"
+msgstr "Notizen"
+
+#: .\papermerge\core\models\document.py:551
+#, fuzzy
+#| msgid "Documents"
+msgid "Document"
+msgstr "Dokumente"
+
+#: .\papermerge\core\models\kvstore.py:89
+msgid "Freeform Text"
+msgstr ""
+
+#: .\papermerge\core\models\kvstore.py:90
+msgid "Monetary"
+msgstr ""
+
+#: .\papermerge\core\models\kvstore.py:91
+#: .\papermerge\core\models\kvstore.py:673
+msgid "Numeric"
+msgstr ""
+
+#: .\papermerge\core\models\kvstore.py:92
+#: .\papermerge\core\models\kvstore.py:674
+msgid "Date"
+msgstr ""
+
+#: .\papermerge\core\models\kvstore.py:671
+msgid "Text"
+msgstr ""
+
+#: .\papermerge\core\models\kvstore.py:672
+msgid "Currency"
+msgstr ""
+
+#: .\papermerge\core\models\node.py:65
+msgid "parent"
+msgstr ""
+
+#: .\papermerge\core\models\node.py:68
+msgid "Title"
+msgstr ""
+
+#: .\papermerge\core\models\node.py:74
+msgid "Language"
+msgstr "Sprache"
+
+#: .\papermerge\core\models\tags.py:50
+msgid "Background Color"
+msgstr ""
+
+#: .\papermerge\core\models\tags.py:56
+msgid "Foreground Color"
+msgstr ""
+
+#: .\papermerge\core\models\tags.py:62
+msgid "Description (optional)"
+msgstr ""
+
+#: .\papermerge\core\models\tags.py:74
+msgid ""
+"Pinned tag will be displayed under Documents menu. It serves as shortcut to "
+"quickly filter folders/documents associated with this tag"
+msgstr ""
+
+#: .\papermerge\core\models\tags.py:83
+#, fuzzy
+#| msgid "Rename"
+msgid "name"
+msgstr "Umbenennen"
+
+#: .\papermerge\core\views\access.py:124
+msgid "You don't have permissions for access model"
+msgstr ""
+
+#: .\papermerge\core\views\api.py:108
+msgid "You don't have permissions to cut pages in this document."
+msgstr ""
+
+#: .\papermerge\core\views\api.py:154
+msgid "You don't have permissions to paste pages in this document."
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:75
+msgid ""
+"This is past version of the document. Content of this version is read only."
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:111
+msgid "Notes saved!"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:118
+#: .\papermerge\core\views\documents.py:138
+#, fuzzy
+#| msgid "Access"
+msgid "Access denied"
+msgstr "Berechtigung"
+
+#: .\papermerge\core\views\documents.py:178
+#, python-format
+msgid "%s does not have permission to cut %s"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:288
+msgid "You don't have permissions to rename this document"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:293
+msgid "Missing title"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:385
+msgid "Folder created"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:447
+msgid "File type not supported. Only pdf, tiff, png, jpeg files are supported"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:621
+#, python-format
+msgid "%s does not have read perissions on %s"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:647
+#, python-format
+msgid "%s does not have write perission on %s"
+msgstr ""
+
+#: .\papermerge\core\views\documents.py:675
+#, fuzzy
+#| msgid "Group %(name)s was successfully created."
+msgid "OCR process successfully started"
+msgstr "Gruppe %(name)s wurde erstellt."
+
+#: .\papermerge\core\views\nodes.py:329
+msgid ""
+"Following Automates have references to folders you are trying to delete: "
+msgstr ""
+
+#: .\papermerge\core\views\nodes.py:334
+msgid ". Please delete mentioned Automates first."
+msgstr ""
+
+#: .\papermerge\core\views\nodes.py:361
+msgid "Nodes deleted"
+msgstr ""
+
+#: .\papermerge\core\views\nodes.py:454
+#, python-format
+msgid "%s does not have permission to read %s"
+msgstr ""
+
+#: .\papermerge\core\views\tags.py:28
+msgid "Node does not exist"
+msgstr ""
+
+#: .\papermerge\core\views\tags.py:47 .\papermerge\core\views\tags.py:105
+#, python-format
+msgid "%(username)s does not have write permission on node %(title)s"
+msgstr ""
+
+#: .\papermerge\core\views\tags.py:79
+msgid "No nodes provided"
+msgstr ""
+
+#: .\papermerge\core\views\users.py:51
+msgid "Password and Password confirmation does not match"
+msgstr "Passwort und Passwortbestätigung sind nicht identisch"
+
+#: .\papermerge\core\views\users.py:89
+#, fuzzy
+#| msgid "Edit"
+msgid "Edit User"
+msgstr "Bearbeiten"
+
+#: .\papermerge\core\views\users.py:116
+#, fuzzy
+#| msgid "Group %(name)s was successfully created."
+msgid "Password was successfully changed."
+msgstr "Gruppe %(name)s wurde erstellt."
+
+#: .\papermerge\wsignals\signals.py:69
+#, python-format
+msgid ""
+"Running automates for doc_id=%(doc_id)s, page %(page_num)s.But in meantime "
+"document probably was deleted."
+msgstr ""
+
+#: .\papermerge\wsignals\signals.py:92
+#, python-format
+msgid ""
+"Running automates for document %(document_title)s, page=%(page_num)s, doc_id="
+"%(doc_id)s. text=%(text)s"
+msgstr ""
+
+#: .\papermerge\wsignals\signals.py:124
+msgid "COMPLETE"
+msgstr ""
+
+#: .\papermerge\wsignals\signals.py:126
+msgid "STARTED"
+msgstr ""
+
+#: .\papermerge\wsignals\signals.py:134
+#, python-format
+msgid ""
+"%(human_status)s OCR for doc_id=%(doc_id)s, page %(page_num)s.But in "
+"meantime document probably was deleted."
+msgstr ""
+
+#: .\papermerge\wsignals\signals.py:158
+#, python-format
+msgid ""
+"%(human_status)s OCR for document %(document_title)s, page=%(page_num)s, "
+"language=%(lang)s, doc_id=%(doc_id)s."
+msgstr ""
+
+#~ msgid "This folder is empty"
+#~ msgstr "yes"
+
+#~ msgid "Current Password"
+#~ msgstr "Aktuelles Passwort"
+
+#~ msgid "New Password"
+#~ msgstr "Neues Passwort"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Neues Passwort (nochmal)"
+
+#~ msgid "password (again)"
+#~ msgstr "Passwort (nochmal)"
+
+#~ msgid "Select a folder or a document to see its details here"
+#~ msgstr ""
+#~ "Wählen Sie einen Ordner oder ein Dokument aus, um dessen Details hier "
+#~ "anzuzeigen"
+
+#~ msgid "New Group"
+#~ msgstr "Neue Gruppe"
+
+#~ msgid ""
+#~ "\n"
+#~ "            A group - is a collection of users. A groups is a convinient "
+#~ "model to group/associate a number of users together. For example only "
+#~ "users belonging to accounting group might be allowed to access "
+#~ "Accounting-2020 folder.\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "Eine Gruppe - ist eine Sammlung von Benutzern.\n"
+#~ "    "
+
+#~ msgid "Group Name"
+#~ msgstr "Gruppenname"
+
+#~ msgid "Search results"
+#~ msgstr "Suchergebnisse"
+
+#~ msgid "Staff Status"
+#~ msgstr "Mitarbeiter Status"
+
+# papermerge-js/src/js/models/permission.js
+#~ msgid "Full Control"
+#~ msgstr "Vollständige Kontrolle"
+
+#~ msgid "Read & Write"
+#~ msgstr "Lesen & Schreiben"
+
+#~ msgid "Read & Write & Delete"
+#~ msgstr "Lesen & Schreiben & Löschen"
+
+#~ msgid "User Defined"
+#~ msgstr "Benutzerdefiniert"
+
+#~ msgid "Permission Editor"
+#~ msgstr "Berechtigungseditor"
+
+#~ msgid "Read"
+#~ msgstr "Lesen"
+
+#~ msgid "Write"
+#~ msgstr "Schreiben"
+
+#~ msgid "Change Permissions"
+#~ msgstr "Berechtigungen ändern"
+
+#~ msgid "Take Ownership"
+#~ msgstr "Eingentümerschaft übernehmen"
+
+#~ msgid "Metadata"
+#~ msgstr "Metadaten"
+
+#~ msgid "View"
+#~ msgstr "Aussicht"
+
+#~ msgid "User or Group"
+#~ msgstr "Benutzer oder Gruppe"
+
+#~ msgid "OK"
+#~ msgstr "OK"

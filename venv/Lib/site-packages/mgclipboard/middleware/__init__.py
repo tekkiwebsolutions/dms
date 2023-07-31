@@ -1,0 +1,1 @@
+from mgclipboard.middleware.clipboard import ClipboardMiddleware
