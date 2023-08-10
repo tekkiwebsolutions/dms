@@ -420,7 +420,7 @@ def upload(request):
     logger.debug("upload for f=%s user=%s", f, request.user)
     user = request.user
     parent_id = request.POST.get('parent', "-1")
-    print('parent id', parent_id)
+    # print('parent id', parent_id)
     parent_id = filter_node_id(parent_id)
 
     lang = request.POST.get('language')
@@ -438,7 +438,9 @@ def upload(request):
     }
 
     try:
+        print('start'*50)
         doc = go_through_pipelines(init_kwargs, apply_kwargs)
+        print('end'*50)
     except ValidationError as error:
         return str(error), 400
 
@@ -543,7 +545,7 @@ def hocr(request, id, step=None, page="1"):
 
 @login_required
 def preview(request, id, step=None, page="1"):
-
+    print('PREVIEW start')
     try:
         doc = Document.objects.get(id=id) 
         print('doc-->>>'*25, doc)
@@ -571,9 +573,13 @@ def preview(request, id, step=None, page="1"):
             logger.debug(
                 f"Preview image {img_abs_path} does not exists. Generating..."
             )
+            print('!!!!!!!!!!!!!!!!!!!!!!!')
+            print(settings.MEDIA_ROOT)
+            print(page_path)
             extract_img(
                 page_path, media_root=settings.MEDIA_ROOT
             )
+            print('############# #')
 
         try:
             with open(img_abs_path, "rb") as f:
@@ -636,14 +642,18 @@ def text_view(
 @login_required
 @require_POST
 def run_ocr_view(request):
+    print('%%%%%%%%%%%%%% run_ocr_view %%%%%%%%%%%%%%')
+
 
     post_data = json.loads(request.body)
+    print(f"==>> post_data: {post_data}")
     node_ids = post_data['document_ids']
     new_lang = post_data['lang']
 
     documents = Document.objects.filter(
         id__in=node_ids
     )
+    print(f"==>> documents: {documents}")
     nodes_perms = request.user.get_perms_dict(
         documents, Access.ALL_PERMS
     )

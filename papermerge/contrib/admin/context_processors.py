@@ -1,4 +1,5 @@
 from django.urls import reverse
+from django.utils.translation import gettext as _
 from papermerge.core import __version__ as PAPERMERGE_VERSION
 from papermerge.core.models import (
     Folder,
@@ -14,42 +15,42 @@ ROLE_DEPENDENT_SIDEBAR_MENU = [
     {
         'required_perm': 'core.view_automate',
         'url': reverse('admin:automates'),
-        'title': 'Automates',
+        'title': _('Automates'),
         'css_icon_class': 'fa-robot',
         'activate_on': 'automates, automate-add, automate-update'
     },
     {
         'required_perm': None,
         'url': reverse('admin:tags'),
-        'title': 'Tags',
+        'title': _('Tags'),
         'css_icon_class': 'fa-tag',
         'activate_on': 'tags, tag-add, tag-update'
     },
     {
         'required_perm': None,
         'url': reverse('admin:logs'),
-        'title': 'Logs',
+        'title': _('Logs'),
         'css_icon_class': 'fa-lightbulb',
         'activate_on': 'logs, log-update'
     },
     {
         'required_perm': 'auth.view_group',
         'url': reverse('admin:groups'),
-        'title': 'Groups',
+        'title': _('Groups'),
         'css_icon_class': 'fa-users',
         'activate_on': 'groups, group-add, group-update'
     },
     {
         'required_perm': 'core.view_user',
         'url': reverse('admin:users'),
-        'title': 'Users',
+        'title': _('Users'),
         'css_icon_class': 'fa-user-friends',
         'activate_on': 'users, user-add, user-update'
     },
     {
         'required_perm': 'core.view_role',
         'url': reverse('admin:roles'),
-        'title': 'Roles',
+        'title': _('Roles'),
         'css_icon_class': 'fa-user',
         'activate_on': 'roles, role-add, role-update'
     },

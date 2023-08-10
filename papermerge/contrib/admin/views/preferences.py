@@ -34,11 +34,14 @@ def uniq_sections(user):
 
 @login_required
 def preferences_section_view(request, section):
+    print(f"==>> section: {section}")
+    
 
     Form = user_preference_form_builder(
         instance=request.user,
         section=section
     )
+    print('##########################', Form)
 
     if request.method == 'POST':
         form = Form(request.POST)

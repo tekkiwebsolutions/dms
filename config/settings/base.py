@@ -344,6 +344,7 @@ LANGUAGES = (
     ('de', _('Deutsch')),
     ('fr', _('Français')),
     ('ar', _('Arabic')),
+    # ('en', _('English')),
     
     
 )

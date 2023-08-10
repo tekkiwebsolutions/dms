@@ -65,10 +65,13 @@ class DocumentManager(PolymorphicMPTTModelManager):
         of extra document parts (added by extra apps)
         """
         # extra document parts
+        print('######'*50)
+        print('kwargs'*50, kwargs)
         kw_parts = kwargs.pop('parts', {})
 
         parent = self._get_parent(parent_id=parent_id)
-
+        print('parent', parent)
+        print('title', title)
         doc = Document(
             title=title,
             size=size,
@@ -100,11 +103,16 @@ class DocumentManager(PolymorphicMPTTModelManager):
         return doc
 
     def _create_node_parts(self, doc, **kw_parts):
+        print('_create_node_parts~~~~~~~~~~~~~~~~')
         node_parts = default_parts_finder.find(AbstractNode)
+        print('node_parts', node_parts )
         node_grouped_args = group_per_model(node_parts, **kw_parts)
+        print('node_grouped_args', node_grouped_args)
 
         for model in node_parts:
+            print(']~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[')
             if model != BaseTreeNode:
+                print('*****~~~~||||||||||||||||||')
                 args = node_grouped_args.get(model, {})
                 instance, _ = model.objects.get_or_create(
                     base_ptr=doc.basetreenode_ptr,
@@ -113,6 +121,7 @@ class DocumentManager(PolymorphicMPTTModelManager):
                 instance.clean()
 
     def _create_doc_parts(self, doc, **kw_parts):
+        print('_create_doc_parts~~~~~~~~~~~~~~~~')
         # 1. figure out document parts
         # document_parts = [
         #    app1.Document,
@@ -120,6 +129,7 @@ class DocumentManager(PolymorphicMPTTModelManager):
         #    app3.Document
         # ]
         doc_parts = default_parts_finder.find(AbstractDocument)
+        print('doc_parts', doc_parts)
         # 2. group arguments by document_parts
         # doc_grouped_args = {
         #    app1.Document: {},
@@ -127,8 +137,10 @@ class DocumentManager(PolymorphicMPTTModelManager):
         #    app3.Document: {}
         # }
         doc_grouped_args = group_per_model(doc_parts, **kw_parts)
+        print('doc_grouped_args', doc_grouped_args)
         for model_klass in doc_parts:
             if model_klass != Document:
+                print(']~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[')
                 args = doc_grouped_args.get(model_klass, {})
                 instance, _ = model_klass.objects.get_or_create(
                     base_ptr=doc,
@@ -536,6 +548,7 @@ class Document(BaseTreeNode):
         return KVCompNode(instance=self)
 
     def inherit_kv_from(self, node):
+        print('inherit kv from'*50)
         inherited_kv = [
             {
                 'key': item.key,
@@ -695,14 +708,17 @@ class Document(BaseTreeNode):
         #  are no pages assigned to document model ?
         # Because page count is retrieved not via models, but by invoking
         # an external utility on pdf file!
+        print('turrrrrrrr'*50)
         page_count = self.page_count
-
+        print('page_count', page_count)
         for page_index in range(1, page_count + 1):
-
+            print('+++++++++++++++++++', page_index)
+            print('page_count', page_count)
             preview = reverse(
                 'core:preview',
                 args=[self.id, 800, page_index]
             )
+            print('preview', preview)      
 
             page = self.pages.create(
                 user=self.user,
@@ -711,6 +727,7 @@ class Document(BaseTreeNode):
                 lang=self.lang,
                 page_count=page_count
             )
+            print('page>>>>'*50, page)
             page.inherit_kv_from(self)
 
     def update_text_field(self):
@@ -903,6 +920,12 @@ class Document(BaseTreeNode):
         return results
 
     def get_page_path(self, page_num, step, version=None):
+        print('()()()()-->>>>>'*50)
+        print(self.path(version=version))
+        print(page_num)
+        print(step)
+        print('##################')
+        print(self.page_count)
         """
         For Step(1) shortcut, use doc_instance.page_eps property.
         """
@@ -999,21 +1022,26 @@ class AbstractDocument(models.Model):
         abstract = True
 
     def get_pagecount(self, version=None):
+        print('get_pagecount', self.base_ptr.get_pagecount(version=None))
         return self.base_ptr.get_pagecount(version=None)
 
     def get_user(self):
+        print('get_user', self.base_ptr.user)
         return self.base_ptr.user
 
     def get_title(self):
+        print('get_title', self.base_ptr.title)
         return self.base_ptr.title
 
     def get_file_name(self):
+        print('get_file_name', self.base_ptr.file_name)
         return self.base_ptr.file_name
 
     def get_document_fields(self):
         return self.base_ptr.get_document_fields()
 
     def get_absfilepath(self):
+        print('get_absfilepath', self.base_ptr.absfilepath)
         """
         Returns absolute file path of the latest version
         of the associated file.

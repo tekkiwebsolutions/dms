@@ -33,6 +33,7 @@
         <!-- form error messages -->
         <form id="preferences_form" class="change_password" method="POST" action="{% url 'admin:preferences_section' section %}">
           {% csrf_token %}
+          ergetjjjjjjjjjjj
           {% for field in form %}
             <div class="form-group">
                 {{ field.errors }}

@@ -64,17 +64,23 @@ class DefaultPipeline:
         """
         self.processor = processor
         self.doc = doc
-
+        print('payload!!!!!!!!!!!!!!!!!!!!!!!', payload)
         if payload is None:
+            print('Nonecc'*25)
             raise TypeError
         elif isinstance(payload, bytes):
+            print('elif '*50)
             payload = self.write_temp(payload)
 
         self.payload = payload
+        print('payloadxxxxxxxxxxxxxx', payload)
 
         if isinstance(payload, TemporaryUploadedFile):
+            print('yes'*25)
             self.path = payload.temporary_file_path()
+            print('path', self.path)
         elif isinstance(payload, _TemporaryFileWrapper):
+            print('no'*25)
             self.path = payload.name
         else:
             raise TypeError
@@ -91,7 +97,9 @@ class DefaultPipeline:
 
         """
         supported_mimetypes = settings.PAPERMERGE_MIMETYPES
+        print('~-+++++++++++++++', supported_mimetypes)
         mime = from_file(self.path, mime=True)
+        print('mime@@@@@@@@@@@@@@@@', mime)
         if mime in supported_mimetypes:
             return None
         raise FileTypeNotSupported
@@ -106,11 +114,13 @@ class DefaultPipeline:
         Returns:
             temp (NamedTemporaryFile): temporary file on disk
         """
+        print('~~~~'*50)
         logger.debug(
             f"{self.processor} importer: creating temporary file"
         )
 
         temp = NamedTemporaryFile()
+        print('temp55'*50, temp)
         temp.write(payload)
         temp.flush()
         return temp
@@ -146,10 +156,15 @@ class DefaultPipeline:
         return user, lang, inbox
 
     def move_tempfile(self, doc):
+        print('move temp fileeeeeeeeeeeeeeeeeeeeeeeeeee')
+        print('default_storage', default_storage)
+        print('srccccc', self.path)
+        print('dst', doc.path().url())
         default_storage.copy_doc(
             src=self.path,
             dst=doc.path().url()
         )
+        print('')
         return None
 
     def page_count(self):
@@ -261,19 +276,31 @@ method is not supposed to throw errors.
         Returns:
             Document: the created or updated document
         """
+        print('yoyo'*50)
+        print('parent::::::::::::::', parent)
         if parent is None:
             user, lang, inbox = self.get_user_properties(user)
+            print(user, '()()()()',lang, '()()()()', inbox)
             # in case of upload via REST API, LOCAL, or IMAP interface,
             # documents must land in user's inbox
+            print('self.processor', self.processor)
             if self.processor in (REST_API, LOCAL, IMAP):
                 parent = inbox.id
+                print('parent', parent)
+                
+        print("nameeeeeeeeeeeooooooooo", name)
+        
         if name is None:
             name = basename(self.path)
+            print("nameeeeeeeeeee", name)
         page_count = self.page_count()
         size = getsize(self.path)
+        print("sizeeeeeeeeeeeee", size)
+        print('create_document', create_document)
 
         if create_document and self.doc is None:
             try:
+                print('create'*25)
                 doc = Document.objects.create_document(
                     user=user,
                     title=name,
@@ -284,11 +311,14 @@ method is not supposed to throw errors.
                     page_count=page_count,
                     notes=notes
                 )
+                print('+++++XXXXXXXXX', name, '333', notes, '333', parent, 'page_count', page_count)
                 self.doc = doc
             except ValidationError as error:
+                print('errorrrrrrrrrrrrrrrr', error)
                 logger.error(f"{self.processor} importer: validation failed")
                 raise error
         elif self.doc is not None:
+            print('doc'*25)
             doc = self.doc
             doc.version = doc.version + 1
             doc.page_count = page_count
@@ -296,36 +326,41 @@ method is not supposed to throw errors.
             doc.size = size
             doc.save()
             try:
+                print('doc.recreate_pages()')
                 doc.recreate_pages()
-            except ValueError:
+            except ValueError as e:
+                print('createeeeeeeeeeeee', e)
                 doc.create_pages()
             doc.full_clean()
-
+        print('BBBBBBBBBBBRRRRRRRRRR')
         self.move_tempfile(doc)
+        print('delete temp file')
         self.payload.close()
-        if not skip_ocr:
+        print('skip_ocr', skip_ocr)
+        # if not skip_ocr:
 
-            namespace = default_storage.upload(
-                doc_path_url=doc.path().url()
-            )
+        #     namespace = default_storage.upload(
+        #         doc_path_url=doc.path().url()
+        #     )
 
-            if apply_async:
-                for page_num in range(1, page_count + 1):
-                    ocr_page.apply_async(kwargs={
-                        'user_id': user.id,
-                        'document_id': doc.id,
-                        'file_name': name,
-                        'page_num': page_num,
-                        'lang': lang,
-                        'namespace': namespace
-                    })
-            else:
-                self.ocr_document(
-                    document=doc,
-                    page_count=page_count,
-                    lang=lang,
-                )
-
+        #     if apply_async:
+        #         for page_num in range(1, page_count + 1):
+        #             ocr_page.apply_async(kwargs={
+        #                 'user_id': user.id,
+        #                 'document_id': doc.id,
+        #                 'file_name': name,
+        #                 'page_num': page_num,
+        #                 'lang': lang,
+        #                 'namespace': namespace
+        #             })
+        #     else:
+        #         self.ocr_document(
+        #             document=doc,
+        #             page_count=page_count,
+        #             lang=lang,
+        #         )
+        print('complete')
+        print('docccccccccc', doc)
         logger.debug(f"{self.processor} importer: import complete.")
         return doc
 
@@ -344,22 +379,27 @@ def go_through_pipelines(init_kwargs, apply_kwargs):
     Returns:
         Document: created document, needs to be unique for each payload
     """
+    print('@@@@'*50)
     processor = init_kwargs.get('processor', WEB)
     doc = None
     pipelines = settings.PAPERMERGE_PIPELINES
     logger.info(f"{processor} importer: importing file")
+    print('pipeline', pipelines)
 
     for pipeline in pipelines:
 
         try:
             pipeline_class = module_loading.import_string(pipeline)
+            print('pipeline_class', pipeline_class)
         except ImportError:
+            print('error'*50)
             logger.error(
                 f"{pipeline} could not be loaded."
                 " Check if it is installed properly."
             )
             continue
         try:
+            print('init_kwargs>>>>>>', init_kwargs)
             importer = pipeline_class(**init_kwargs)
         except TypeError:
             logger.debug(f"{processor} importer: not a file")
@@ -378,5 +418,4 @@ def go_through_pipelines(init_kwargs, apply_kwargs):
             init_kwargs = {**init_kwargs, **init_kwargs_temp}
         if apply_kwargs_temp:
             apply_kwargs = {**apply_kwargs, **apply_kwargs_temp}
-
     return doc

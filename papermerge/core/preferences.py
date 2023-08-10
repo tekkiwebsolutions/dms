@@ -1,5 +1,5 @@
 from pytz import common_timezones
-
+from django.utils.translation import gettext as _
 from django.conf import settings
 
 from dynamic_preferences.preferences import Section as OrigSection
@@ -76,23 +76,23 @@ class Section(OrigSection):
 
 localization = Section(
     'localization',
-    verbose_name="Localization",
+    verbose_name=_("Localization"),
     icon_name="globe-americas",
-    help_text="Timezone, date and time formats"
+    help_text=_("Timezone, date and time formats")
 )
 
 ocr = Section(
     'ocr',
-    verbose_name="Opical Character Recognition",
+    verbose_name=_("Opical Character Recognition"),
     icon_name="eye",
-    help_text="Choose default OCR Language"
+    help_text=_("Choose default OCR Language")
 )
 
 email_routing = Section(
     'email_routing',
-    verbose_name="Email Routing",
+    verbose_name=_("Email Routing"),
     icon_name="envelope-open-text",
-    help_text="How email attachments match your Inbox",
+    help_text=_("How email attachments match your Inbox"),
     visible=_is_email_routing_enabled()
 )
 
